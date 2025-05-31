@@ -1,0 +1,19 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+<!-- UXMLファイルの開始。UI Toolkit の要素（UnityEngine.UIElements）を使うための名前空間を定義 -->
+
+	<ui:Style src="popup.uss" />
+
+	<ui:VisualElement>
+	<!-- 最上位のVisualElement。画面上のUIコンテナ（親要素）になる部分 -->
+
+		<ui:VisualElement name="popup" class="popup">
+		<!-- ポップアップUI本体。C#側から name="popup" を指定してアクセスできるようにしている -->
+
+			<ui:Label text="ルーレット停止" />
+			<!-- ポップアップ内に表示されるラベル。文字列をそのまま表示するだけのシンプルなUI要素 -->
+
+		</ui:VisualElement>
+
+	</ui:VisualElement>
+
+</ui:UXML>

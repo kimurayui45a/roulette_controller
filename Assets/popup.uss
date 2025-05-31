@@ -1,0 +1,17 @@
+﻿.popup {
+  width: 150px;
+  height: 75px;
+  background-color: #007BFF;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  /* Unityでは中心配置に alternative 方法が必要 */
+  margin-left: -250px; /* widthの半分 */
+  margin-top: 200px;   /* heightの半分 */
+  display: flex;
+  flex-direction: column;
+}
